@@ -13,6 +13,9 @@
 		5780E94726F8E4310046D98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5780E94526F8E4310046D98C /* Main.storyboard */; };
 		5780E94926F8E4320046D98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5780E94826F8E4320046D98C /* Assets.xcassets */; };
 		5780E94C26F8E4320046D98C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5780E94A26F8E4320046D98C /* LaunchScreen.storyboard */; };
+		5780E97626F8EFB10046D98C /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780E97326F8EFB10046D98C /* Second.swift */; };
+		5780E97726F8EFB10046D98C /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780E97426F8EFB10046D98C /* First.swift */; };
+		5780E97826F8EFB10046D98C /* Third.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780E97526F8EFB10046D98C /* Third.swift */; };
 		5780E96D26F8EF4E0046D98C /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780E96A26F8EF4E0046D98C /* Second.swift */; };
 		5780E96E26F8EF4E0046D98C /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780E96B26F8EF4E0046D98C /* First.swift */; };
 		5780E96F26F8EF4E0046D98C /* Third.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780E96C26F8EF4E0046D98C /* Third.swift */; };
@@ -27,6 +30,9 @@
 		5780E94826F8E4320046D98C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5780E94B26F8E4320046D98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5780E94D26F8E4320046D98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5780E97326F8EFB10046D98C /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
+		5780E97426F8EFB10046D98C /* First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		5780E97526F8EFB10046D98C /* Third.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Third.swift; sourceTree = "<group>"; };
 		5780E96A26F8EF4E0046D98C /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 		5780E96B26F8EF4E0046D98C /* First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
 		5780E96C26F8EF4E0046D98C /* Third.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Third.swift; sourceTree = "<group>"; };
@@ -62,6 +68,7 @@
 		5780E93E26F8E4310046D98C /* Pr-1 */ = {
 			isa = PBXGroup;
 			children = (
+				5780E97226F8EFB10046D98C /* TableDispatch */,
 				5780E96926F8EF4E0046D98C /* Static */,
 				5780E93F26F8E4310046D98C /* AppDelegate.swift */,
 				5780E94126F8E4310046D98C /* SceneDelegate.swift */,
@@ -74,6 +81,16 @@
 			path = "Pr-1";
 			sourceTree = "<group>";
 		};
+		5780E97226F8EFB10046D98C /* TableDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				5780E97326F8EFB10046D98C /* Second.swift */,
+				5780E97426F8EFB10046D98C /* First.swift */,
+				5780E97526F8EFB10046D98C /* Third.swift */,
+			);
+			path = TableDispatch;
+            sourceTree = "<group>";
+        };
 		5780E96926F8EF4E0046D98C /* Static */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5780E97726F8EFB10046D98C /* First.swift in Sources */,
+				5780E97826F8EFB10046D98C /* Third.swift in Sources */,
+				5780E94426F8E4310046D98C /* ViewController.swift in Sources */,
+				5780E94026F8E4310046D98C /* AppDelegate.swift in Sources */,
+				5780E94226F8E4310046D98C /* SceneDelegate.swift in Sources */,
+				5780E97626F8EFB10046D98C /* Second.swift in Sources */,
 				5780E96E26F8EF4E0046D98C /* First.swift in Sources */,
 				5780E96F26F8EF4E0046D98C /* Third.swift in Sources */,
 				5780E94426F8E4310046D98C /* ViewController.swift in Sources */,
